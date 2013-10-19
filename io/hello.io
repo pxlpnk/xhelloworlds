@@ -6,4 +6,4 @@ Greeter greet :=  method( name,
         );
 );
 
-Greeter greet("Dev Fest")
+Greeter greet("DevFest")
