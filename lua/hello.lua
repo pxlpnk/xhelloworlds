@@ -1,7 +1,7 @@
 #!/usr/bin/env lua
 
-function hello (x)
+function greeter (x)
 	print("Hello ".. x)
 end
 
-hello("DevFest")
+greeter("DevFest")
