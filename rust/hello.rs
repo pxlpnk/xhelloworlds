@@ -1,5 +1,9 @@
 // Run with `rust run hello.rs`
 
+fn greeter(greeting_text: &str) {
+    println(greeting_text);
+}
+
 fn main() {
-    println("Hello World!");
+    greeter("Hello World!");
 }
