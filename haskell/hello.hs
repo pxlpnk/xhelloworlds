@@ -2,6 +2,7 @@
 
 import System.Environment
 
+greeter :: String -> String
 greeter s = "Hello, " ++ s
 
 main :: IO ()
