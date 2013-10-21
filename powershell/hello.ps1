@@ -1,5 +1,5 @@
-function hello([string]$x) {
+function greeter([string]$x) {
 	Write-Host "Hello ", $x
 }
 
-hello("DevFest)
+greeter("DevFest)
