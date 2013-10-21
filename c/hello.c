@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-void greet(char* name) {
+void greet(const char *name) {
   printf("Hello %s\n", name);
 }
 
 int main() {
-  char name[8] = "DevFest";
+  const char *name = "DevFest";
   greet(name);
   return 0;
 }
