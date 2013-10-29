@@ -1,3 +1,7 @@
 
-"monkey" => string name;
-<<< "hello " + name >>>;
+fun string greeter( string a )
+{
+    <<< "Hello " + a >>>;
+}
+
+greeter("DevFest") => string greet;
