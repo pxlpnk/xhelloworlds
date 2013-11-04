@@ -1,6 +1,6 @@
 import java.lang.System;
 
-class hello {
+class Hello {
     private static void greet(String name) {
         System.out.println("Hello " + name);
     }
