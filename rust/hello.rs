@@ -1,7 +1,8 @@
-// Run with `rust run hello.rs`
+// compile with `rustc hello.rs`
+// run with `./hello`
 
 fn greeter(greeting_text: &str) {
-    println(fmt!("Hello %s!", greeting_text));
+    println!("Hello {}!", greeting_text);
 }
 
 fn main() {
